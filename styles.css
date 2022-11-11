@@ -1,0 +1,38 @@
+html{
+    background-color: black;
+    
+    
+}
+div{
+    width:100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border-box{
+    background-color: yellow;
+    /* box-sizing: border-box; 
+    desconsidera o padding e 
+    border no calculo final 
+    */
+    box-sizing: border-box
+}
+
+.sem-border-box{
+    background-color: blue;
+}
+
+/*largura +  padding esquerda + pedding direita + 
+border esquerda + border direita = largura total do
+ elemento
+ 
+ 100 + 10 + 10 + 10 + 10 = 140
+ 
+ *altura +  padding de cima + pedding de baixo + 
+border de cima  + border de baixo = altura total do
+ elemento
+ 
+ 100 + 10 + 10 + 10 + 10 = 140
+ 
+ */
